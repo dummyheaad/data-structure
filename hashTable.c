@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+// hash function prototype
+unsigned int hash(unsigned int x);
+
 // node untuk linked-list
 struct node {
     int val;
